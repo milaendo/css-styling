@@ -8,7 +8,7 @@ body {
 	background-color: #dddddd;
 	border: 1px solid #ffd24a;
 }
-div {
+body > div {
 	background-color: white;
 	}
 #page_content {
@@ -60,14 +60,8 @@ td img {
     width:50px;
 }
 
-div form {
-	background:##eee;
-}
-form div {
-	background: ##eee;
-}
-.city_container {
-	background-color: inherit;
+form {
+	background-color: #eee
 }
 /*object-position:
 font info:
