@@ -14,7 +14,7 @@ body > div {
 #page_content {
 	padding: 20px 30px;
 }
-p>a {
+p > a {
 	color: #1fabe5
 }
 
@@ -45,12 +45,13 @@ table {
     border:1px solid #046c97;
     border-collapse:collapse;
 }
-th, td {
+td {
     border:1px solid #1fabe5;
 }
 tbody tr td:nth-child(2) {
     text-align:center;
 }
+
 thead td{
     background-color: #1fabe5;
     padding: 20px;
@@ -58,10 +59,16 @@ thead td{
 }
 td img {
     width:50px;
+
 }
 
 form {
-	background-color: #eee
+	background-color: #eee;
+}
+
+
+.name {
+	background-color: #ff8523;
 }
 /*object-position:
 font info:
